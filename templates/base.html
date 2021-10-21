@@ -1,0 +1,121 @@
+<!-- This is where all the common code with stay -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Crime Lab</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Crime Lab</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Specific Crime
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="crime_infanticide">Infanticide</a></li>
+                    <li><a class="dropdown-item" href="crime_murder_of_children">Murder of childern</a></li>
+                    <li><a class="dropdown-item" href="crime_rape_of_children">Rape of children</a></li>
+                    <li><a class="dropdown-item" href="crime_kidnapping_and_abduction_of_children">Kidnapping and abduction of children</a></li>
+                    <li><a class="dropdown-item" href="crime_foeticide">Foeticide</a></li>
+                    <li><a class="dropdown-item" href="crime_abetment_of_suicide">Abetment of suicide</a></li>
+                    <li><a class="dropdown-item" href="crime_exposure_and_abandonment">Exposure and Abandonment</a></li>
+                    <li><a class="dropdown-item" href="crime_procuration_of_minor_girls">Procuration of Minor Girls</a></li>
+                    <li><a class="dropdown-item" href="crime_buying_of_girls_for_prostitution">Buying of girls for prostitution</a></li>
+                    <li><a class="dropdown-item" href="crime_selling_of_girls_for_prostitution">Selling of girls for prostitution</a></li>
+                    <li><a class="dropdown-item" href="crime_prohibition_of_child_marriage_act">Prohibition of child marriage act</a></li>
+                    <li><a class="dropdown-item" href="crime_other_crimes_against_children">Other crimes against children</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="Total_Crime">Total Crime</a></li>
+                    <li><a class="dropdown-item" href="INDIA_CRIME_CHART">Indian Crime Chart</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Specific State & UT
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="overflow-y:auto; max-height:80vh">
+                      <li><a class="dropdown-item" href="ANDHRA_PRADESH">ANDHRA PRADESH</a></li>
+                      <li><a class="dropdown-item" href="ARUNACHAL_PRADESH">ARUNACHAL PRADESH</a></li>
+                      <li><a class="dropdown-item" href="ASSAM">ASSAM</a></li>
+                      <li><a class="dropdown-item" href="BIHAR">BIHAR</a></li>
+                      <li><a class="dropdown-item" href="CHHATTISGARH">CHHATTISGARH</a></li>
+                      <li><a class="dropdown-item" href="GOA">GOA</a></li>
+                      <li><a class="dropdown-item" href="GUJARAT">GUJARAT</a></li>
+                      <li><a class="dropdown-item" href="HARYANA">HARYANA</a></li>
+                      <li><a class="dropdown-item" href="HIMACHAL_PRADESH">HIMACHAL PRADESH</a></li>
+                      <li><a class="dropdown-item" href="JAMMU_and_KASHMIR">JAMMU & KASHMIR</a></li>
+                      <li><a class="dropdown-item" href="JHARKHAND">JHARKHAND</a></li>
+                      <li><a class="dropdown-item" href="KARNATAKA">KARNATAKA</a></li>
+                      <li><a class="dropdown-item" href="KERALA">KERALA</a></li>
+                      <li><a class="dropdown-item" href="MADHYA_PRADESH">MADHYA PRADESH</a></li>
+                      <li><a class="dropdown-item" href="MAHARASHTRA">MAHARASHTRA</a></li>
+                      <li><a class="dropdown-item" href="MANIPUR">MANIPUR</a></li>
+                      <li><a class="dropdown-item" href="MEGHALAYA">MEGHALAYA</a></li>
+                      <li><a class="dropdown-item" href="MIZORAM">MIZORAM</a></li>
+                      <li><a class="dropdown-item" href="NAGALAND">NAGALAND</a></li>
+                      <li><a class="dropdown-item" href="ODISHA">ODISHA</a></li>
+                      <li><a class="dropdown-item" href="PUNJAB">PUNJAB</a></li>
+                      <li><a class="dropdown-item" href="RAJASTHAN">RAJASTHAN</a></li>
+                      <li><a class="dropdown-item" href="SIKKIM">SIKKIM</a></li>
+                      <li><a class="dropdown-item" href="TAMIL_NADU">TAMIL NADU</a></li>
+                      <li><a class="dropdown-item" href="TRIPURA">TRIPURA</a></li>
+                      <li><a class="dropdown-item" href="UTTAR_PRADESH">UTTAR PRADESH</a></li>
+                      <li><a class="dropdown-item" href="UTTARAKHAND">UTTARAKHAND</a></li>
+                      <li><a class="dropdown-item" href="WEST_BENGAL">WEST BENGAL</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="A_and_N_ISLANDS">A & N ISLANDS</a></li>
+                      <li><a class="dropdown-item" href="CHANDIGARH">CHANDIGARH</a></li>
+                      <li><a class="dropdown-item" href="D_and_N_HAVELI">D & N HAVELI</a></li>
+                      <li><a class="dropdown-item" href="DAMAN_and_DIU">DAMAN & DIU</a></li>
+                      <li><a class="dropdown-item" href="DELHI">DELHI</a></li>
+                      <li><a class="dropdown-item" href="LAKSHADWEEP">LAKSHADWEEP</a></li>
+                      <li><a class="dropdown-item" href="PUDUCHERRY">PUDUCHERRY</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="All_States">All States</a></li>
+                      <li><a class="dropdown-item" href="All_UT">All Uts</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Specific Crime Yearly
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="crime_2001">Year 2001</a></li>
+                        <li><a class="dropdown-item" href="crime_2002">Year 2002</a></li>
+                        <li><a class="dropdown-item" href="crime_2003">Year 2003</a></li>
+                        <li><a class="dropdown-item" href="crime_2004">Year 2004</a></li>
+                        <li><a class="dropdown-item" href="crime_2005">Year 2005</a></li>
+                        <li><a class="dropdown-item" href="crime_2006">Year 2006</a></li>
+                        <li><a class="dropdown-item" href="crime_2007">Year 2007</a></li>
+                        <li><a class="dropdown-item" href="crime_2008">Year 2008</a></li>
+                        <li><a class="dropdown-item" href="crime_2009">Year 2009</a></li>
+                        <li><a class="dropdown-item" href="crime_2010">Year 2010</a></li>
+                        <li><a class="dropdown-item" href="crime_2011">Year 2011</a></li>
+                        <li><a class="dropdown-item" href="crime_2012">Year 2012</a></li>
+                      </ul>
+                  </li>
+              </ul>
+          </div>
+        </div>
+      </nav>
+      {% block body %}
+        
+      {% endblock body %}
+    <!-- Optional JavaScript: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
