@@ -1,4 +1,4 @@
-# using flask
+# using flask 
 import base64
 from io import BytesIO
 import pandas as pd
@@ -7,7 +7,8 @@ import matplotlib.pyplot as plt
 
 app = Flask(__name__)
 
-#required dataset
+#required dataset -> data.csv
+
 df=pd.read_csv("data.csv") #load the dataset   #df is the data frame here(data set)
 df['TOTAL']=df.iloc[:,-12:].sum(axis=1)  #new col for total crimes
 d=df[:-38] #to drop total crime rows      #d is the updated data set 
